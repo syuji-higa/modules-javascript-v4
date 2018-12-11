@@ -1,0 +1,25 @@
+{
+  "name": "jsmm",
+  "version": "1.0.0",
+  "description": "JavaScript My(syuji-higa) Modules",
+  "main": "index.js",
+  "scripts": {
+    "esdoc": "esdoc -c esdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syuji-higa/jsmm.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "syuji-higa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syuji-higa/jsmm/issues"
+  },
+  "homepage": "https://github.com/syuji-higa/jsmm#readme",
+  "devDependencies": {
+    "esdoc": "^1.0.4"
+  }
+}
