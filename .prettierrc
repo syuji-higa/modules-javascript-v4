@@ -1,18 +1,16 @@
 # .prettierrc
 
-printWidth: 80
-tabWidth: 2
-
 overrides:
 - files: "*.js"
   options:
+    semi: false
     singleQuote: true
-    semi: true
-    trailingComma: "all"
-    parser: "babylon"
-- files: "modules/**/*.js"
+    arrowParens: "always"
+- files: "src/js/**/*.js"
   options:
+    semi: false
     singleQuote: true
-    semi: true
-    trailingComma: "all"
-    parser: "babylon"
+    arrowParens: "always"
+- files: "src/sass/**/*.scss"
+  options:
+    parser: "scss"
